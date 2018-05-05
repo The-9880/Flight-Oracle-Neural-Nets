@@ -23,3 +23,5 @@ information for that date and feed it into my NN to return the likelihood that t
 
 Note: the predictions for time aren't sound, but at every observation I've found them to be a touch or a leap beneath the recorded
 values in our training data - therefore, they could be considered 'safe' estimates, but I wouldn't bet on it always being that way.
+
+Should be noted that a Decision Tree Classifier or Random Forest model would have been significantly faster and easier to implement, and should have given predictions of sufficient accuracy for the purposes of the project.
